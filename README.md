@@ -48,6 +48,7 @@ For more installation options, uninstall steps, and troubleshooting, see the [se
 ## Plugins
 
 This repository includes several Claude Code plugins that extend functionality with custom commands and agents. See the [plugins directory](./plugins/README.md) for detailed documentation on available plugins.
+For a repository-level module overview and architecture diagrams, see [docs/architecture.md](./docs/architecture.md).
 
 ## Reporting Bugs
 
