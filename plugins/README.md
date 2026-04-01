@@ -8,6 +8,8 @@ Claude Code plugins are extensions that enhance Claude Code with custom slash co
 
 Learn more in the [official plugins documentation](https://docs.claude.com/en/docs/claude-code/plugins).
 
+For a high-level view of how this repository organizes plugins, examples, and automation, see the [repository architecture guide](../docs/architecture.md).
+
 ## Plugins in This Directory
 
 | Name | Description | Contents |
