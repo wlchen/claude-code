@@ -72,6 +72,7 @@ When adding new plugins to this directory:
 
 ## Learn More
 
+- [Repository Architecture](../docs/architecture.md)
 - [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)
 - [Plugin System Documentation](https://docs.claude.com/en/docs/claude-code/plugins)
 - [Agent SDK Documentation](https://docs.claude.com/en/api/agent-sdk/overview)
