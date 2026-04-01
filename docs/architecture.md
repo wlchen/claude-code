@@ -84,17 +84,17 @@ sequenceDiagram
 
 ## Key architectural relationships
 
-1. **Marketplace-first packaging**  
+1. **Marketplace-first packaging**
    `.claude-plugin/marketplace.json` is the catalog entrypoint that points to the bundled plugins in `plugins/`.
 
-2. **Plugin implementation is self-contained**  
+2. **Plugin implementation is self-contained**
    Each plugin owns its commands, agents, skills, hooks, and documentation inside its own directory.
 
-3. **Repository automation is workflow-driven**  
+3. **Repository automation is workflow-driven**
    `.github/workflows/` provides the orchestration layer; the workflows either invoke Claude Code directly or run scripts from `scripts/`.
 
-4. **Scripts act on GitHub state**  
+4. **Scripts act on GitHub state**
    The TypeScript and shell scripts are thin automation layers around GitHub issues, comments, labels, and pull requests.
 
-5. **Examples document deployment patterns**  
+5. **Examples document deployment patterns**
    `examples/settings/` shows how teams can configure Claude Code behavior across environments without changing plugin code.
