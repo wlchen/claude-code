@@ -7,6 +7,7 @@ This directory contains some official Claude Code plugins that extend functional
 Claude Code plugins are extensions that enhance Claude Code with custom slash commands, specialized agents, hooks, and MCP servers. Plugins can be shared across projects and teams, providing consistent tooling and workflows.
 
 Learn more in the [official plugins documentation](https://docs.claude.com/en/docs/claude-code/plugins).
+For a repository-level map of how these plugins relate to the marketplace, scripts, and workflows, see [`docs/architecture.md`](../docs/architecture.md).
 
 ## Plugins in This Directory
 
